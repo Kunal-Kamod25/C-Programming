@@ -25,7 +25,7 @@ int main()
 		case 'E':
 		case 'e':
 			printf("Pass Class\n");
-			break;
+			break;									
 		case 'F':
 		case 'f':
 			printf("Fail\n");

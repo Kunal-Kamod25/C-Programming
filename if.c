@@ -2,9 +2,10 @@
 
 int main()
 {
-    char op;
-    int a, b;
-    double ans = 0.0;
+    char op;//it stores the operation character like +,-,*,/
+    int a, b;//this is the two integer number
+    double ans = 0.0;//stores the result of calculation its a double type to handle division results
+    
 
     printf("Enter Operation (+, -, *, /): ");
     scanf(" %c", &op); 
