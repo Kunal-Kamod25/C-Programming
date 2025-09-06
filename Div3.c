@@ -7,7 +7,7 @@ int main()
 
     for(i=0;i<=n;i++)
     {
-        if(i % 3==0)
+        if(i % 4==0)
             continue;
         else
             printf("%d\n", i);
