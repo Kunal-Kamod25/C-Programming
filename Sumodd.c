@@ -9,7 +9,7 @@ int main()
 
     while(i<=num)
     {
-        if(i % 2 !=0)
+        if(i % 3 !=0)
         {
             printf("%d ", i); //Print even numbers
         }
