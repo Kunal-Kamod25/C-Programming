@@ -22,7 +22,7 @@ int main()
     }
     else
     {
-        printf("Invalid Age\n");
+        printf("Invalid age\n");
     }
     return 0;
 
