@@ -14,6 +14,6 @@ int main()
         binary /= 10;
     }
 
-    printf(" %d\n", decimal);
+    printf(" %d\n", Decimal);
     return 0;
 }
