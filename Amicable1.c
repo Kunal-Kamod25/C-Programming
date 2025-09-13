@@ -29,11 +29,11 @@ int main()
     // Check if numbers are amicable
     if (sum1 == num2 && sum2 == num1)
     {
-        printf("%d and %d are amicable numbers.\n", num1, num2);
+        printf("%d and %d Are amicable numbers.\n", num1, num2);
     }
     else
     {
-        printf("%d and %d are not amicable numbers.\n", num1, num2);
+        printf("%d and %d Are not amicable numbers.\n", num1, num2);
     }
 
     return 0;
