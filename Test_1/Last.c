@@ -11,11 +11,11 @@ int main()
         {
             if(i % 4 == 0)
             {
-                printf("%d is even & div by 4 \n",i);
+                printf("%d is Even & div by 4 \n",i);
             }
             else
             {
-                printf("%d is even & not div by 4 \n",i);
+                printf("%d is Even & not div by 4 \n",i);
             }
         }
         else
