@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int N=0,i;
+    int n=0,i;
 
     printf("Enter the Number: ");
-    scanf("%d",&N);
+    scanf("%d",&n);
 
-    for(i=N;i>=1;--i)
+    for(i=n;i>=1;--i)
     {
         printf("%d",i);
         if(i>1)
@@ -15,3 +15,4 @@ int main()
     return 0;
     
 }
+
