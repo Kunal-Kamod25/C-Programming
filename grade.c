@@ -31,7 +31,7 @@ int main()
 			printf("Fail\n");
 			break;
 		default:
-			printf("You Enterd Invalid Grade.\n");
+			printf("You enterd invalid grade.\n");
 	}
 	return 0;
 }
