@@ -15,6 +15,6 @@ int main()
         if(ans==n1)
         printf("n=%d is palindrome",n1);
         else
-        printf("not palindrome");
+        printf("Not palindrome");
         return 0;
 }
