@@ -17,16 +17,13 @@ int main()
     {
         scanf("%d",&A[i]);
     }
+    int min=A[0];
     for(int i=1; i<n; ++i)
     {
-        int min=A[0];
-
-        for(i=1; i<n; ++i)
-        {
-            if(A[i]<min)
-            min=A[i];
-        }
-        printf("Minimum= %d\n",min);
+        if(A[i]<min)
+        min=A[i];
+    }
+    printf("Minimum= %d\n",min);
     free(A);
     return 0;   
     }
