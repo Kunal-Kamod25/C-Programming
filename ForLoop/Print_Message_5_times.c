@@ -5,7 +5,7 @@ int main()
 
     for(i=1; i<=n; ++i)
     {
-        printf("Hi Kunal.\n");
+        printf("Hi Kunal K.\n");
     }
     return 0;
 
