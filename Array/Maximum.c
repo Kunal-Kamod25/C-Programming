@@ -11,7 +11,7 @@ int main()
     int*A=(int*)malloc(sizeof(int)*n);
     if(A==NULL)
     {
-        printf("Memory allocation faild.....\n");
+        printf("Memory Allocation Faild.....\n");
         exit(-1);
     }
     printf("Enter a array: ");
