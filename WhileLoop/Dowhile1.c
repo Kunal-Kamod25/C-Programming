@@ -5,12 +5,12 @@ int main()
     int n;
     int i=1;
 
-    printf("Enter the Number: ");
+    printf("Enter The Number: ");
     scanf("%d",&n);
 
     do
     {
-        printf("%d\n",i);
+        printf("%d\n ",i);
         ++i;
     } while (i <= n);
     return 0;
