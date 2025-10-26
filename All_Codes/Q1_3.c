@@ -9,6 +9,6 @@ int main()
     a = b;
     b = temp;
 
-    printf("After swap: a = %d , b = %d\n",a,b);
+    printf("After Swap: a = %d , b = %d\n",a,b);
     return 0;
 }
