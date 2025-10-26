@@ -11,5 +11,5 @@ int main()
     printf("Subtraction = %d\n",a-b);//Subtraction
 
     printf("Division = %d\n",a/b);// Division
-
+    return 0;
 }
