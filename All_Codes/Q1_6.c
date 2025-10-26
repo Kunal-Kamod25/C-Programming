@@ -3,7 +3,7 @@ int main()
 {
     int x;
     int a,b;
-    printf("Enter an integer value of x: ");
+    printf("Enter an Integer Value of x: ");
     scanf("%d",&x);
 
     a = x * x ;
