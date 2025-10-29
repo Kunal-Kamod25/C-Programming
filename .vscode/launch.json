@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
+<<<<<< HEAD
       "cwd": "/home/kunal/Desktop/29-10-2025",
       "program": "/home/kunal/Desktop/29-10-2025/build/Debug/outDebug",
+=======
+      "cwd": "/home/kunal/Desktop/kk/C-Programming",
+      "program": "/home/kunal/Desktop/kk/C-Programming/build/Debug/outDebug",
+>>>>>>> 10cb6c20cd3547312eeb40072e728c6af3fc2863
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
