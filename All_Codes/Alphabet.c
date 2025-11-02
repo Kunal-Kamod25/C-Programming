@@ -3,7 +3,7 @@ int main()
 {
     char ch;
 
-    printf("Enter a character: ");
+    printf("Enter a Character: ");
     scanf("%c", &ch);
 
     if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) 
