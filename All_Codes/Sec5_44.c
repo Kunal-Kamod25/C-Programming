@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    printf("Enter size of the array: ");
+    printf("Enter size of the Array: ");
     scanf("%d",&n);
 
     int*A=(int *)malloc(sizeof(int)*n);
@@ -25,4 +25,5 @@ int main()
     
     free(A);
     return 0;
+
 }
