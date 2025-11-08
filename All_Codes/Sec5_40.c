@@ -9,7 +9,7 @@ int main()
     int * A = (int *)malloc(sizeof (int)*n);
     if(A == NULL)
     {
-        printf("Memory allocation failed....\n");
+        printf("Memory allocation Failed....\n");
         exit(-1);
     }
     printf("Enter %d elements: ",n);
@@ -24,3 +24,4 @@ int main()
     return 0;
 
 }
+
