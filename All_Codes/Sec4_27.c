@@ -2,7 +2,7 @@
 int main()
 {
     int num , count=0;
-    printf("Enter a numbers: ");
+    printf("Enter a Numbers: ");
     scanf("%d",&num);
 
     while(num != 0)
@@ -12,4 +12,5 @@ int main()
     }
     printf("Number of digits= %d",count);
     return 0;
+
 }
