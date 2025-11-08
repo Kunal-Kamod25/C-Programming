@@ -2,7 +2,7 @@
 int main()
 {
     int n , sum = 0;
-    printf("Enter a integer number: ");
+    printf("Enter a integer Number: ");
     scanf("%d",&n);
 
    int i=1;
@@ -13,4 +13,5 @@ int main()
    }
    printf("Sum of all integer: %d",sum);
    return 0;
+
 }
