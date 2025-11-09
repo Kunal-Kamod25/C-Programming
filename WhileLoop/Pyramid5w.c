@@ -5,7 +5,7 @@ int main()
     int n;
     int row = 1, col;
 
-    printf("Enter an Element: ");
+    printf("Enter an element: ");
     scanf("%d", &n);
 
     while (row <= n)   // outer loop
@@ -22,4 +22,5 @@ int main()
 
     return 0;
 }
+
 
