@@ -3,7 +3,7 @@
 int main() 
 {
     int rows, cols, i, j, sum = 0;
-    printf("Enter rows and columns: ");
+    printf("Enter rows and Columns: ");
     scanf("%d %d", &rows, &cols);
 
     int **A= (int **)malloc(rows * sizeof(int *));
@@ -24,3 +24,4 @@ int main()
     free(A);
     return 0;
 }
+
