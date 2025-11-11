@@ -3,16 +3,16 @@
 int main()
 {
     int n=0;
-    printf("Enter a number: ");
+    printf("Enter a Number: ");
     scanf("%d",&n);
 
     int*A=(int*)malloc(sizeof(int)*n);
     if(A==NULL)
     {
-        printf("Memory allocation failed.....\n");
+        printf("Memory allocation Failed.....\n");
         exit(-1);
     }
-    printf("Enter a array elements: ");
+    printf("Enter a array Elements: ");
     for(int i=0; i<n; ++i)
     {
         scanf("%d",&A[i]);
@@ -48,3 +48,4 @@ int main()
     free(A);
     return 0;
 }
+
