@@ -17,7 +17,7 @@ int main()
     // Read input values according to the input file format
     if (fscanf(in, "n %d", &n) != 1) 
     {
-        printf("Error: Missing or invalid value for n in input file.\n");
+        printf("Error: Missing or invalid value for n in input File.\n");
         fclose(in);
         fclose(out);
         return 1;
@@ -25,7 +25,7 @@ int main()
 
     if (fscanf(in, "\nM %d", &M) != 1) 
     {
-        printf("Error: Missing or invalid value for M in input file.\n");
+        printf("Error: Missing or invalid value for M in input File.\n");
         fclose(in);
         fclose(out);
         return 1;
@@ -33,7 +33,7 @@ int main()
 
     if (fscanf(in, "\nSP %f", &sp) != 1) 
     {
-        printf("Error: Missing or invalid value for SP in input file.\n");
+        printf("Error: Missing or invalid value for SP in input File.\n");
         fclose(in);
         fclose(out);
         return 1;
@@ -42,7 +42,7 @@ int main()
     char header[20];
     if (fscanf(in, "%s", header) != 1) 
     {
-        printf("Error: Missing 'Items' line in input file.\n");
+        printf("Error: Missing 'Items' line in input File.\n");
         fclose(in);
         fclose(out);
         return 1;
@@ -54,7 +54,7 @@ int main()
     {
         if (fscanf(in, "%f %f", &weight[i], &cost[i]) != 2) 
         {
-            printf("Error: Missing or invalid data at item %d in input file.\n", i + 1);
+            printf("Error: Missing or invalid data at item %d in input File.\n", i + 1);
             fclose(in);
             fclose(out);
             return 1;
@@ -90,3 +90,4 @@ int main()
     printf("Data sorted successfully and written into output-Sorting-part.txt\n");
     return 0;
 }
+
