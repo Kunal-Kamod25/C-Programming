@@ -2,7 +2,7 @@ int main()
 {
 	int num=0;
 	int ans=-1;
-	printf("Enter The Number");
+	printf("Enter the number");
 	scanf("%d",&num);
 	if(num<10)
 		ans=1;
