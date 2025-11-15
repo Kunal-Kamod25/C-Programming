@@ -2,7 +2,7 @@
 int main()
 {
     int a , b;
-    printf("Enter two integers: ");
+    printf("Enter 2 integers: ");
     scanf("%d %d",&a , &b);
 
     if(b != 0)
@@ -14,4 +14,5 @@ int main()
         printf("Division by zero is not allowed \n");
 
     return 0;
+
 }
