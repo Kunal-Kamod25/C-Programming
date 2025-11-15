@@ -3,7 +3,7 @@ int main()
 {
     int month , year;
 
-    printf("Enter month number: ");
+    printf("Enter month Number: ");
     scanf("%d",&month);
     printf("Enter year: ");
     scanf("%d",&year);
@@ -22,4 +22,5 @@ int main()
     else
         printf("Invalid month number. \n");
     return 0;
+
 }
