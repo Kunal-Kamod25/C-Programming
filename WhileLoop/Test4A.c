@@ -5,7 +5,7 @@ int main()
     int n;
     int i=0;
 
-    printf("Enter a Element: ");
+    printf("Enter a element: ");
     scanf("%d",&n);
 
     // int*A=(int*)malloc(sizeof(int)*n)
@@ -38,3 +38,4 @@ int main()
     return 0;
 
 }
+
