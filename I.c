@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    printf("Enter a number: ");
+    printf("Enter a Number: ");
     scanf("%d",&n);
 
     //Read and print the matrix
