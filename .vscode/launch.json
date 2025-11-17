@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
+<<<<<<< HEAD
       "cwd": "/home/kunal/Desktop/Two_D_Array",
       "program": "/home/kunal/Desktop/Two_D_Array/build/Debug/outDebug",
+=======
+      "cwd": "/home/kunal/Desktop/2.d_Array",
+      "program": "/home/kunal/Desktop/2.d_Array/build/Debug/outDebug",
+>>>>>>> f656aca4000c3683553068cbe4f278b8d31428a9
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
