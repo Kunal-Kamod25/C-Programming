@@ -3,10 +3,10 @@ int main()
 {
     int Row, Col;
 
-    printf("Enter how many Rows: ");
+    printf("Enter how Many Rows: ");
     scanf("%d", &Row);
 
-    printf("Enter how many Columns: ");
+    printf("Enter how Many Columns: ");
     scanf("%d", &Col);
     
     // First matrix
