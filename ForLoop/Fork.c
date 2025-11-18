@@ -4,7 +4,7 @@ int main()
 {
     int n;
 
-    printf("Enter a number: ");
+    printf("Enter a Number: ");
     scanf("%d",&n);
 
     int fact=1;
@@ -14,4 +14,5 @@ int main()
     }
     printf("The factorial is :: %d",fact);
     return 0;
+
 }
