@@ -2,7 +2,7 @@
 int main()
 {
     int age=0;
-    printf("Enter the alien age: ");
+    printf("Enter the Alien age: ");
     scanf("%d", &age);
     if(age < 5)
     {
