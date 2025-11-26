@@ -13,7 +13,7 @@ int main()
         printf("Memory allocation failed\n");
         exit(-1);
     }
-    printf("Enter a array elements: ");
+    printf("Enter a array Elements: ");
     for(int i=0; i<n; ++i)
     {
         scanf("%d",&A[i]);
@@ -50,3 +50,4 @@ int main()
     return 0;
 
 }
+
