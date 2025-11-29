@@ -5,7 +5,7 @@ int main()
     int x;
     double power_result;
     int expression_result;
-    printf("Enter an Integer x: ");
+    printf("Enter an integer x: ");
     scanf("%d", &x);
     power_result = pow(2, x); 
     expression_result = 2 + 2 * x;
@@ -14,3 +14,4 @@ int main()
     return 0;
 
 }
+
