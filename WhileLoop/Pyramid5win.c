@@ -5,7 +5,7 @@ int main()
     int n;
     int row, col;
 
-    printf("Enter a Number: ");
+    printf("Enter a number: ");
     scanf("%d", &n);
 
     row = n;
@@ -24,6 +24,7 @@ int main()
     return 0;
 
 }
+
 
 
 
