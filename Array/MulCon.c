@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    printf("enter the num:");
+    printf("Enter the Num:");
     scanf("%d",&n);
     if(n<100)
         printf("small");
