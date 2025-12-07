@@ -2,7 +2,7 @@
 int main()
 {
     int x,y;
-    printf("enetr (x,y):");
+    printf("Enter (x,y):");
     scanf("%d %d",&x,&y);
     int Max=ismax(x,y);
     printf("%d is max",Max);
