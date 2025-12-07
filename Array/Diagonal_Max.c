@@ -2,7 +2,7 @@
 int main()
 {
     int n,i,r,c;
-    printf("enter size of matrix::");
+    printf("Enter size of Matrix::");
     scanf("%d",&n);
 
     int m[n][n];
