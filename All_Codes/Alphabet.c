@@ -8,10 +8,10 @@ int main()
 
     if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) 
     {
-        printf("%c is an alphabet.\n", ch);
+        printf("%c is an Alphabet.\n", ch);
     } else 
     {
-        printf("%c is not an alphabet.\n", ch);
+        printf("%c is not an Alphabet.\n", ch);
     }
     return 0;
 }
