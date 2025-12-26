@@ -3,22 +3,22 @@
 int main()
 {
     int i,n;
-    printf("enter an num:");
+    printf("Enter an number:");
     scanf("%d",&n);
 
     int *a2=(int *)malloc(sizeof(int)*n);
     int *a1=(int *)malloc(sizeof(int)*n);
     if(a1==NULL)
     {
-        printf("memory not allocate.....\n");
+        printf("Memory not allocate.....\n");
         exit(-1);
     }
 
-    printf("enter array elements:");
+    printf("Enter array elements:");
     for(i=0;i<n;i++)
         scanf("%d",&a1[i]);
 
-    printf("original array\n");
+    printf("Original array\n");
     for(i=0;i<n;i++)
         printf("%d ",a1[i]);
     
