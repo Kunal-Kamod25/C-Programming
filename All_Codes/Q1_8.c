@@ -4,7 +4,7 @@ int main()
 {
     float a , b , c;
     float d , root1 , root2;
-    printf("Enter coefficients a , b , c: ");
+    printf("Enter Coefficients a , b , c: ");
     scanf("%f %f %f",&a , &b , &c);
 
     d = (b * b)-(4*a*c);
@@ -15,4 +15,5 @@ int main()
     printf("Root 1 = %.2f\n",root1);
     printf("Root 2 = %2.f\n",root2);
     return 0;
+
 }
