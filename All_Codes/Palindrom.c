@@ -3,7 +3,7 @@
 int main()
 {
     int num, rev=0, original;
-    printf("Enter an integer: ");
+    printf("Enter an Integer: ");
     scanf("%d",&num);
     original = num;
     while(num>0){
@@ -17,4 +17,5 @@ int main()
     else
         printf("Number is not palindrome.\n");
     return 0;
+
 }
