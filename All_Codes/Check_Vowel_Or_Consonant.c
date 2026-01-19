@@ -11,4 +11,5 @@ int main()
         printf("%c is a Vowel. \n",ch);
     else
         printf("%c is a consonant. \n",ch);
+
 }
