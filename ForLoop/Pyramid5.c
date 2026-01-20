@@ -4,7 +4,7 @@ int main()
 {
     int n;
     int row=1 , col=1;
-    printf("Enter a element: ");
+    printf("Enter a Element: ");
     scanf("%d",&n);
 
     for(row=1; row <= n; ++row)
@@ -16,4 +16,5 @@ int main()
         printf("\n");
     }
     return 0;
+
 }
