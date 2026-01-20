@@ -5,7 +5,7 @@ int main()
     char ch;
 
 
-    printf("Enter the value : ");
+    printf("Enter the Value : ");
     scanf("%c",&ch);
 
      for(;ch<='z' ;++ch)
