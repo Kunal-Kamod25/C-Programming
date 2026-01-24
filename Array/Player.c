@@ -9,7 +9,7 @@ struct Player
 int main()
 {
     struct Player p;
-    printf("enetr player name::");
+    printf("Enter player name::");
     scanf("%s",&p.name);
     printf("enetr player run::");
     scanf("%d",&p.run);
