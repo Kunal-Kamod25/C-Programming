@@ -3,9 +3,9 @@
 int main() 
 {
     int x, y;
-    printf("Enter integer x: ");
+    printf("Enter Integer x: ");
     scanf("%d", &x);
-    printf("Enter integer y: ");
+    printf("Enter Integer y: ");
     scanf("%d", &y);
     double result = sqrt(2 * x * x + 4 * y + x + 10);
     printf("Answer is = %lf\n", result);
