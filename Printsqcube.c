@@ -3,7 +3,7 @@
 int main()
 {
     int num,i;
-    printf("Enter an integer: ");
+    printf("Enter an Integer: ");
     scanf("%d",&num);
 
     printf("Number\tSquare\tCube\n");
