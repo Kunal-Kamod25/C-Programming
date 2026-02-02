@@ -12,7 +12,8 @@ int main()
     {
         fact= fact*i;
     }
-    printf("The factorial is :: %d",fact);
+    printf("The Factorial is :: %d",fact);
     return 0;
 
 }
+
