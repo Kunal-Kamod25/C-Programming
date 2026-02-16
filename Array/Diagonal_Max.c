@@ -6,7 +6,7 @@ int main()
     scanf("%d",&n);
 
     int m[n][n];
-    printf("enter an matrix::\n");
+    printf("Enter an Matrix::\n");
     for(r=0;r<n;r++)
         for(c=0;c<n;c++)
             scanf("%d",&m[r][c]);
