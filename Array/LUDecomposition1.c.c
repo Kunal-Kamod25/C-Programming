@@ -15,7 +15,7 @@ int main()
     double **A;
     int n = 0;
 
-    printf("Enter first row of matrix:\n");
+    printf("Enter First row of Matrix:\n");
     if (!fgets(line, sizeof(line), stdin)) 
     {
         fprintf(stderr, "Error reading input.\n");
@@ -163,4 +163,5 @@ void printMatrix(double **A, int n)
         printf("\n");
     }
 }
+
 
