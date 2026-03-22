@@ -8,6 +8,6 @@ int main()
     printf("Enter Integer y: ");
     scanf("%d", &y);
     double result = sqrt(2 * x * x + 4 * y + x + 10);
-    printf("Answer is = %lf\n", result);
+    printf("Answer Is = %lf\n", result);
     return 0;
 }
