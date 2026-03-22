@@ -12,12 +12,12 @@ int main()
     if (sellingPrice > costPrice) 
     {
         amount = sellingPrice - costPrice;
-        printf("Profit = %.2f\n", amount);
+        printf("profit = %.2f\n", amount);
     } 
     else if (costPrice > sellingPrice) 
     {
         amount = costPrice - sellingPrice;
-        printf("Loss = %.2f\n", amount);
+        printf("loss = %.2f\n", amount);
     } 
     else 
     {
