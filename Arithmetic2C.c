@@ -3,9 +3,9 @@
 int main() 
 {
     int x, y;
-    printf("Enter integer x: ");
+    printf("Enter Integer x: ");
     scanf("%d", &x);
-    printf("Enter integer y: ");
+    printf("Enter Integer y: ");
     scanf("%d", &y);
     double numerator = sqrt(pow(x, 223) * 4 + 8 * y + x + 5);
     double denominator = 2 * x * x;
