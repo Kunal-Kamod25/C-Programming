@@ -15,10 +15,10 @@ int main()
 
     if (angle1 > 0 && angle2 > 0 && angle3 > 0 && sum == 180) 
     {
-        printf("The triangle is VALID.\n");
+        printf("The Triangle is VALID.\n");
     } else 
     {
-        printf("The triangle is NOT VALID.\n");
+        printf("The Triangle is NOT VALID.\n");
     }
 
     return 0;
