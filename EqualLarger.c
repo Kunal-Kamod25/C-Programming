@@ -2,13 +2,13 @@
 int main()
 {
     int a=0, b=0;
-    printf("Enter the first number: \n");
+    printf("Enter the first Number: \n");
     scanf("%d",&a);
-    printf("Enter the second number: \n");
+    printf("Enter the second Number: \n");
     scanf("%d",&b);
 
     if(a==b)
-    printf("The number are equal \n");
+    printf("The number are Equal \n");
 
     else if(a>b)
     printf("The number a is larger than b \n");
