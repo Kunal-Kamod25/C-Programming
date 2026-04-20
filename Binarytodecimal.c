@@ -4,9 +4,9 @@
 int main()
 {
     int binary, decimal=0, i;
-    printf("Enter a binary number: ");
+    printf("Enter a Binary Number: ");
     scanf("%d", &binary);
-    printf("Decimal equivalent of %d is",binary);
+    printf("Decimal Equivalent of %d is",binary);
     
     for(i=0;binary!=0;i++)
     {
