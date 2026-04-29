@@ -4,6 +4,6 @@ int main()
     char ch;
     printf("Enter a character: ");
     scanf("%c",&ch);
-    printf("The Charcter Is: %c\n",ch);
+    printf("The Charcter is: %c\n",ch);
     return 0;
 }
