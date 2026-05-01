@@ -10,7 +10,7 @@ int main()
     }
     else if(age>=5 && age<=50)
     {
-        printf("Teenager\n");
+        printf("teenager\n");
     }
     else if(age>=51 && age<=300)
     {
