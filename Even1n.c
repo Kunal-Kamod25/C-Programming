@@ -4,7 +4,7 @@ int main()
     int num;
     int i=1;
     
-    printf("Enter a number: "); //Ask the user for input the value
+    printf("Enter a Number umber: "); //Ask the user for input the value
     scanf("%d",&num);
 
     while(i<=num)
