@@ -6,7 +6,7 @@ int main()
     
     do
     {
-        printf("Enter a number: ");
+        printf("Enter a Number: ");
         scanf("%d",&n);
         printf("%d\n",n);
 
