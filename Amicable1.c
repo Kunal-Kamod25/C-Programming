@@ -3,7 +3,7 @@
 int main()
 {
     int num1, num2;
-    printf("Enter the two numbers: \n");
+    printf("Enter the two Numbers: \n");
     scanf("%d %d", &num1, &num2);
 
     int sum1 = 0, sum2 = 0;
