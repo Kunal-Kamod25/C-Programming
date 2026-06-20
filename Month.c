@@ -45,7 +45,7 @@ int main()
 			printf("The Month Is December \n");
 			break;
 		default:
-			printf("Enter invalid number.\n");
+			printf("Enter invalid Number.\n");
 	}
 }
 			
