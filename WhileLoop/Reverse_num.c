@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    printf("enter num:");
+    printf("Enter num:");
     scanf("%d",&n);
     int *a=(int *)malloc(sizeof(int)*n);
     printf("enter array:");
