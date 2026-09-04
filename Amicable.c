@@ -25,11 +25,11 @@ int main()
     }
     if(ans1==num2 && ans2==num1)
     {
-        printf("%d and %d are amicable numbers\n",num1,num2);
+        printf("%d and %d are Amicable numbers\n",num1,num2);
     }
     else
     {
-        printf("%d and %d are not amicable numbers\n",num1,num2);
+        printf("%d and %d are not Amicable numbers\n",num1,num2);
     }
     
     return 0;
