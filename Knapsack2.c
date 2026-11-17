@@ -65,7 +65,7 @@ int main()
         n++;
         if (n >= 100) 
         {
-            printf("Warning: Only first 100 items processed.\n");
+            printf("Warning: Only first 100 items Processed.\n");
             break;
         }
     }
